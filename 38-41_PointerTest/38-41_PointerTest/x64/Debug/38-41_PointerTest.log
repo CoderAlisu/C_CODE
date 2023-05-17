@@ -1,0 +1,24 @@
+﻿  Source.c
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(47,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(47,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(48,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(48,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(49,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(49,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(50,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(50,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(51,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(51,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(52,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(52,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(53,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(53,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(54,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(54,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(55,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(55,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(56,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(56,9): message : consider using '%zd' in the format string
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(57,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\coding\C_workspace\C\38-41_PointerTest\38-41_PointerTest\Source.c(57,9): message : consider using '%zd' in the format string
+  38-41_PointerTest.vcxproj -> D:\coding\C_workspace\C\38-41_PointerTest\x64\Debug\38-41_PointerTest.exe

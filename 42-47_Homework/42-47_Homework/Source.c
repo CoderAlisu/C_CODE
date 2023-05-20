@@ -209,3 +209,66 @@
 
 //const int*p 和 int const*p等价 ——对的！
 
+//编程题：调整奇数偶数顺序——调整数组使得奇数全部位于偶数前面
+
+void move(int* arr, int sz)
+{
+	int i = 0;//记录奇数的后一位
+	int j = 0;//遍历数组
+	for (j = 0; j < sz; j++)
+	{
+		if (arr[j] % 2 != 0)
+		{
+			int tmp = arr[j];
+			arr[j] = arr[i];
+			arr[i] = tmp;
+			i++;
+		}
+	}
+}
+
+//void move(int* arr, int sz)
+//{
+//	int left = 0;
+//	int right = sz - 1;
+//	//不同的思路：
+//	while (left < right)
+//	{
+//		//1.从左边找一个偶数(注意全部都是奇数的情况)
+//		while ((left<right) && (arr[left] % 2 == 1))
+//		{
+//			left++;
+//		}
+//		//2.从右边找一个奇数
+//		while ((left<right) && (arr[right] % 2 == 0))
+//		{
+//			right--;
+//		}
+//		//3.交换它们
+//		if (left != right)
+//		{
+//			int tmp = arr[left];
+//			arr[left] = arr[right];
+//			arr[right] = tmp;
+//		}
+//	}
+//}
+
+void print(int* arr, int sz)
+{
+	int i = 0;
+	for (i = 0; i < sz; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+}
+
+int main()
+{
+	int arr[] = { 1,2,3,4,5,6,7,8,9,};
+	int sz = sizeof(arr) / sizeof(arr[0]);
+
+	move(arr, sz);
+	print(arr, sz);
+	return 0;
+}
